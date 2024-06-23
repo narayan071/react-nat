@@ -1,5 +1,3 @@
-// CustomButton.js
-
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, View } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -63,7 +61,7 @@ const styles = StyleSheet.create({
   },
   outlined: {
     borderWidth: 1,
-    borderColor: '#000000', // Black outline
+    borderBlockColor: 'black',
     backgroundColor: 'transparent',
   },
   primary: {
